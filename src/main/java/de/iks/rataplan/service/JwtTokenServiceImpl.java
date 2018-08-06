@@ -26,8 +26,7 @@ public class JwtTokenServiceImpl implements JwtTokenService, Serializable {
 	 */
 	private static final long serialVersionUID = -7186407209737805247L;
 	
-	@Value("${jwt.secret}")
-	private static String SECRET;
+	private static String SECRET = "cd+Pr1js+w2qfT2BoCD+tPcYp9LbjpmhSMEJqUob1mcxZ7+Wmik4AYdjX+DlDjmE4yporzQ9tm7v3z/j+QbdYg==";
 
 	static final Integer EXPIRATION = 600;
 
